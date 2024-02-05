@@ -1,7 +1,9 @@
 # reporter
 -start client 
   npm start
--staart server
+
+  
+-start server
   node server/index.js
 
   
