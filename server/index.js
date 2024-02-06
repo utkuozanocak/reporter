@@ -66,7 +66,7 @@ app.get('/api/reports/:folder/widgets/summary', async (req, res) => {
   }
 });
 
-// Özel bir fonksiyon, fs.readFile'i Promise ile sarmak için kullanılır
+
 function readFileAsync(path, encoding) {
   return new Promise((resolve, reject) => {
     fs.readFile(path, encoding, (err, data) => {
